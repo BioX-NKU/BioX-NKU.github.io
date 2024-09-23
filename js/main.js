@@ -18,6 +18,14 @@ $(document).on('ready', function(){
 				
 			});
 		});
+
+
+	    $('.gallery-item').magnificPopup({
+	        type: 'image',
+	        gallery: {
+	            enabled: true 
+	        }
+	    });
 	
 	
 		// Testimonial Slider //
